@@ -1,20 +1,19 @@
 @font-face { 
   font-family: Proxima; src: url('../fonts/Proxima_Nova.otf');
 }
-.tagline {
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: -21px;
-    background-color: #6e8270;
-    color:#fff;
-    font-family: Proxima, sans-serif;
-    font-size: 14px;
-}
 h2.form-heading {
     color: #6e8270;
     font-size: 20px;
-    font-family: Proxima, sans-serif;
+}
+.row.gradient {
+    background: #f8f8f2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f8f8f2 0%, #fffffd 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f2), color-stop(100%,#fffffd)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f8f8f2 0%,#fffffd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f8f8f2 0%,#fffffd 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f8f8f2 0%,#fffffd 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f8f8f2 0%,#fffffd 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f2', endColorstr='#fffffd',GradientType=0 ); /* IE6-9 */
 }
 .search-box {
     border:1px solid #dee3de;
@@ -39,8 +38,8 @@ ol li {
 ol{
     padding-left: 0!important;
 }
+/* buttons */
 .search-button {
-    font-family: Proxima, sans-serif;
     border-radius: 1px;
     border: 1px solid #779f41;
     font-size: 22px;
@@ -83,76 +82,5 @@ a.btn.clear-button,
 a.btn.search-button{
     display: inline-block;
 }
-.footer-dark {
-    margin-top: 130px;
-    background-color: #414141;
-    color: #fff;
-}
-.sponsors{
-    padding-left: 15px;
-}
-.footer-dark h3{
-    font-size: 15px;
-}
-.sponsor-logo {
-    width: auto;
-    height: 25px;
-    margin: 10px;
-}
-.sponsor-logo.smaller {
-    width: auto;
-    height: 20px;
-    margin: 10px;
-}
-.disclimer {
-    margin: 25px 15px 15px 15px;
-}
-.footer-disclimer{
-    color: #fff;
-    font-size: 10px;
-    line-height: 0.5;
-}
-.contact a {
-    color: #fff;
-}
-.contact a:hover {
-    color: lightgray;
-    text-decoration: none;
-}
-.logo-tag {
-    display: inline-block;
-    padding-left: 15px;
-    color: #515151;
-    font-family: Proxima, sans-serif;
-}
-.logo {
-    font-family: Georgia, Times, serif;
-    color: #000;
-    font-size: 30px;
-    text-transform: uppercase;
-    display: block;
-    padding: 15px 0 0 15px;
-    color: #87aa3a;
-}
-.navbar-default .navbar-nav>li>a.nav-item {
-    color: #6e8270;
-    font-family: Proxima, sans-serif;
-}
-@media (min-width: 768px){
-    .navbar-default .navbar-nav>li>a.nav-item {
-    padding-top: 52px;
-    }
-}
-.navbar.navbar-default {
-    background-color: #fbfdfc;
-}
-.row.gradient {
-    background: #f8f8f2; /* Old browsers */
-    background: -moz-linear-gradient(top,  #f8f8f2 0%, #fffffd 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f2), color-stop(100%,#fffffd)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #f8f8f2 0%,#fffffd 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #f8f8f2 0%,#fffffd 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #f8f8f2 0%,#fffffd 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #f8f8f2 0%,#fffffd 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f2', endColorstr='#fffffd',GradientType=0 ); /* IE6-9 */
-}
+
+
