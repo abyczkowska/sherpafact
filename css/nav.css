@@ -15,6 +15,7 @@
     color: #515151;
     font-family: ProximaLight;
     font-size: 18px;
+    line-height: 0;
 }
 .tagline {
     padding-left: 15px;
@@ -80,4 +81,9 @@
 }
 .navbar-default .navbar-toggle:focus{
     background-color: #f8f8f2;
+}
+@media(min-width: 768px){
+    .tagline {
+    padding-left: 30px;
+    }
 }
