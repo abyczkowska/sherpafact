@@ -1,6 +1,12 @@
 @font-face { 
   font-family: Proxima; src: url('../fonts/Proxima_Nova.otf');
 }
+@font-face { 
+  font-family: ProximaLight; src: url('../fonts/Proxima_Nova_Light.otf');
+}
+@font-face { 
+  font-family: ProximaItalic; src: url('../fonts/Proxima_Nova_Italic.otf');
+}
 h2.form-heading {
     color: #6e8270;
     font-size: 20px;
@@ -74,6 +80,7 @@ ol{
     color: #9daaa3;
     padding: 5px;
     margin-right: 45px;
+    margin-top: 5px;
 }
 .clear-button:hover {
     color: #6f8371;
@@ -82,5 +89,8 @@ a.btn.clear-button,
 a.btn.search-button{
     display: inline-block;
 }
-
-
+@media(max-width: 320px){
+   .clear-button {
+    float: left!important;
+    }    
+}

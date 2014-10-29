@@ -1,8 +1,3 @@
-.logo-tag {
-    display: inline-block;
-    padding-left: 15px;
-    color: #515151;
-}
 .logo, 
 .logo:hover {
     font-family: Georgia, Times, serif;
@@ -13,6 +8,13 @@
     padding: 15px 0 0 15px;
     color: #87aa3a;
     text-decoration: none;
+}
+.logo-tag {
+    display: inline-block;
+    padding-left: 15px;
+    color: #515151;
+    font-family: ProximaLight;
+    font-size: 18px;
 }
 .tagline {
     padding-left: 15px;
