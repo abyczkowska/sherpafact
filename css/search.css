@@ -1,6 +1,21 @@
 .form-control.sherpa-form {
 	border-radius: 1px;
 	border: 1px solid #6e8270;
+	font-family: Proxima;
+}
+::-webkit-input-placeholder {
+	font-family: ProximaItalic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	font-family: ProximaItalic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	font-family: ProximaItalic;
+}
+
+:-ms-input-placeholder {  
 	font-family: ProximaItalic;
 }
 
@@ -15,5 +30,4 @@
 .select2-container-multi .select2-choices .select2-search-choice{
 	background-color: #fff;
 	border-color: #6e8270;
-}
 }
