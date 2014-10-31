@@ -44,6 +44,18 @@ ol li {
 ol{
     padding-left: 0!important;
 }
+h3{
+    font-size: 21px;
+    font-family: ProximaLight;
+}
+h4 {
+    font-family: ProximaLight;
+    font-size: 16px;
+}
+.bold {
+    font-family:Proxima; 
+}
+
 /* buttons */
 .search-button {
     border-radius: 1px;
