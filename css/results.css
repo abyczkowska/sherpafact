@@ -1,8 +1,8 @@
-.funder-style {
-	line-height: 0.5;
+h3.funder-style {
+	margin-top: 1px;
 }
 .issn-style{
-	padding-top: 15px;
+	padding-top: 10px;
 }
 h5.compliant{
 	color: #87aa3a;
@@ -21,14 +21,23 @@ h5.compliant{
 .compliant-link:hover {
 	color: #87aa3a;
 }
-.toggle-more-info {
+.panel-heading.toggle-more-info {
 	background-color: #435d39;
+	border-radius: 0px;
 }
-.toggle-text {
+a.toggle-text {
 	color: #fff;
 	padding-left: 15px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+.toggle-text:before{
+	font-family: FontAwesome;
+	content: "\f0fe";
+}
+.toggle-text.collapsed:before{
+	font-family: FontAwesome;
+	content: "\f146";/*minus "\f146";*/
 }
 .additional-info {
 	margin-top: 25px;
@@ -40,4 +49,42 @@ h5.compliant{
     -webkit-box-shadow: inset 0px 0px 3px #ccc;
     box-shadow: inset 0px 0px 3px #ccc;
     margin-bottom: 25px;
+}
+#intro-one {
+	color: #fff;
+	background-color: #435d39;
+}
+.panel-body {
+	background-color: #fff;
+	color: #414141;
+	padding-left: 0;
+	padding-right: 0;
+}
+h4.path-heading{
+	text-transform: uppercase;
+	font-family: Proxima;
+	font-size: 16px;
+	color: #6e8270;
+	padding-left: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+.zebra-green.path{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.zebra-green.path p{
+	margin-bottom: 0;
+}
+.path-secondary {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: ProximaLight;
+	padding-top: 7px;
+}
+a.zebra-link {
+	color: #414141;
+	text-decoration: underline;
 }

@@ -34,3 +34,8 @@
     color: lightgray;
     text-decoration: none;
 }
+@media (max-width: 768px){
+    .contact {
+        padding-left: 15px;
+    }
+}
