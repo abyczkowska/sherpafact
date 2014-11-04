@@ -11,6 +11,12 @@ h2.form-heading {
     color: #6e8270;
     font-size: 20px;
 }
+h5{
+    font-size: 22px;
+}
+p {
+    font-family: ProximaLight;
+}
 .row.gradient {
     background: #f8f8f2; /* Old browsers */
     background: -moz-linear-gradient(top,  #f8f8f2 0%, #fffffd 100%); /* FF3.6+ */
@@ -105,4 +111,7 @@ a.btn.search-button{
    .clear-button {
     float: left!important;
     }    
+}
+.uppercase {
+    text-transform: uppercase;
 }
