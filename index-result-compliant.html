@@ -267,7 +267,7 @@
                 </div>
                 <div class="additional-info">
                     <p>Link for this page</p>
-                    <div class="link-box"></div>
+                    <input type="text" class="link-box"></input>
                 </div>
 
                 <a class="btn search-button view-button">View</a>
@@ -320,8 +320,9 @@
     $(document).ready(function() { 
         $("#funders-select").select2({
           placeholder: 'Click to select Funders'  
-          });
-          $("#clear-select").click(function() { $("#funders-select").select2("val", ""); });
+        });
+        $("#clear-select").click(function() { $("#funders-select").select2("val", ""); });
+        $('.link-box').val(window.location.href);
     });
 </script>
 </body>
