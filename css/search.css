@@ -27,6 +27,14 @@
 	font-family: ProximaLight;
 	color: #414141;
 }
+
+/* different font for placeholder text in select2 */
+.select2-container-multi .select2-choices .select2-search-field input {
+    font-family: ProximaItalic;
+}
+.select2-container-multi.select2-container-active .select2-choices .select2-search-field input {
+    font-family: Proxima;
+}
 .select2-container-multi .select2-choices .select2-search-choice{
 	background-color: #fff;
 	border-color: #6e8270;

@@ -123,7 +123,7 @@
                     <div class="clearfix">
                         <p class="search-message"> No results found</p>
                         <a href="#" class="feedback-link"> Send us feedback</a>
-                        <button type="reset" value="Clear" class=" btn clear-button pull-right">Clear</button>
+                        <button id="clear-select" type="reset" value="Clear" class=" btn clear-button pull-right">Clear</button>
                     </div>
                 </form>
             </div>
@@ -167,6 +167,7 @@
             $("#funders-select").select2({
               placeholder: 'Click to select Funders'  
           }); 
+          $("#clear-select").click(function() { $("#funders-select").select2("val", ""); });
         });
     </script>
 
