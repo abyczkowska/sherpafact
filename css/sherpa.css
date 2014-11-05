@@ -93,17 +93,23 @@ h4 {
     color: #fff;  
     border: 1px solid #5c8436;
 }
-.clear-button {
+button.clear-button {
     font-size: 18px;
     color: #9daaa3;
     padding: 5px;
     margin-right: 45px;
     margin-top: 5px;
+    background-color: #fff;
 }
-.clear-button:hover {
+button.clear-button:hover {
     color: #6f8371;
 }
-a.btn.clear-button,
+button.element.style {
+}
+button.btn.clear-button:focus {
+   outline: none;
+}
+button.btn.clear-button,
 a.btn.search-button{
     display: inline-block;
 }
@@ -114,4 +120,11 @@ a.btn.search-button{
 }
 .uppercase {
     text-transform: uppercase;
+}
+@media (max-width: 768px){
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
 }
