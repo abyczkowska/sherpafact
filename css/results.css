@@ -21,6 +21,13 @@ h5.compliant{
 .compliant-link:hover {
 	color: #87aa3a;
 }
+.non-compliant-link {
+	text-decoration: underline;
+	color: #414141;
+}
+.non-compliant-link:hover {
+	color: #000;
+}
 .panel-heading.toggle-more-info {
 	background-color: #435d39;
 	border-radius: 0px;
@@ -42,13 +49,14 @@ a.toggle-text {
 .additional-info {
 	margin-top: 25px;
 }
-.link-box{
+input.link-box{
 	border: 1px solid #414141;
 	padding: 15px;
 	-moz-box-shadow: inset 0px 0px 3px #ccc;
     -webkit-box-shadow: inset 0px 0px 3px #ccc;
     box-shadow: inset 0px 0px 3px #ccc;
     margin-bottom: 25px;
+    width: 100%;
 }
 #intro-one {
 	color: #fff;
@@ -77,6 +85,9 @@ h4.path-heading{
 }
 .zebra-green.path p{
 	margin-bottom: 0;
+}
+.zebra-red {
+	background-color: #f6e9e7;
 }
 .path-secondary {
 	padding-left: 15px;
