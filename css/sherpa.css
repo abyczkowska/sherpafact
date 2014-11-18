@@ -128,3 +128,17 @@ a.btn.search-button{
         padding-bottom: 5px;
     }
 }
+@media (max-width: 768px) {
+    .navbar-header.sherpa-header{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+.info-box {
+    border:1px solid #dee3de;
+    margin-top: 60px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+}

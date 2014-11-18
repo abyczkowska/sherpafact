@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sherpa Fact - Funders & Authors Compliance Tool</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/select2.css" rel="stylesheet">
+    <link href="css/select2-bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/sherpa.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+    <link href="css/search-results.css" rel="stylesheet">
+    <link href="css/results.css" rel="stylesheet">
+    <link href="css/static.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header sherpa-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="logo" href="/home">Sherpa Fact</a>
+                <p class="logo-tag">Opening access to research</p>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="nav-item" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a a class="nav-item" href="help.html">Help & Feedback</a>
+                    </li>
+                    <li>
+                        <a a class="nav-item dropdown-toggle" data-toggle="dropdown" href="#">More +</a>
+                        <ul aria-labelledby="dropdownMenu1" class="dropdown-menu dropdown-style uppercase" role="menu">
+                            <li>
+                            <a href="api.html" class: 'dropdown-link', role: 'menuitem', tabindex: '-1')> Api</a>
+                            </li> 
+                            <li>
+                            <a href="about.html" class: 'dropdown-link', role: 'menuitem', tabindex: '-1')> About </a>
+                            </li> 
+                          </ul>
+                        </a>
+                        </li>
+
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid">
+        <div class="row tagline-color">
+            <div class="col-sm-12">
+                <div class="tagline">  Funders & Authors Compliance Tool - Helping you comply with funders’ open access policies</div>
+            </div>    
+        </div>
+        <div class="row gradient">
+            <div class="col-sm-12">
+                <div class="info-box">
+                    <div class="box-wrapper">
+                    <h2 class="form-heading"> Definitions and Frequently Asked Questions</h2>
+                    <ul class="faq-preview">
+                        <li class="faq-preview"> <a href="#faq-01">I think a fact record may be inaccurate, what do i do?</a></li>
+                        <li class="faq-preview"><a href="#faq-02">Why does my journal not appear in the auto-complete list?</a></li>
+                        <li class="faq-preview"><a href="#faq-03">Fact says i must deposit my articles in my institutional repository, where can i find it?</a></li>
+                        <li class="faq-preview"><a href="#faq-04">My journal says i must pay for open access, where do i apply for funds?</a></li>
+                        <li class="faq-preview"><a href="#faq-05">What data sources are used by sherpa/fact?</a></li>
+                        <li class="faq-preview"><a href="#faq-06">What are fact’s working definitions and assumptions?</a></li>
+                        <li class="faq-preview"><a href="#faq-07">How does fact handle multiple funders’ requirements?</a></li>
+                        <li class="faq-preview"><a href="#faq-08">What is the hierarchy of creative commons licences with respect to openness?</a></li>
+                        <li class="faq-preview"><a href="#faq-09">Where can i see a breakdown of funder policies?</a></li>
+                        <li class="faq-preview"><a href="#faq-10">Is there a fact API?</a></li>
+                    </ul>
+
+                    <!-- q & a  -->
+                    <ul class="faq">
+
+                        <li class="question" id="faq-01">I think a fact record may be inaccurate, what do i do?
+                        </li>
+                        <p class="answer">If you are aware of any new policies from publishers or consider that an entry may need to be reviewed, please provide any feedback via our <a class="faq-link" href="#">Feedback Form</a>.</p>
+
+                        <li class="question"id="faq-02">Why does my journal not appear in the auto-complete list?
+                        </li>
+                        <p class="answer">The auto-complete list for journal titles is comprised of the top 600 journal titles, identified by research funders and from the titles most frequently searched for in RoMEO. You can still search for titles not currently included in this list.</p>
+
+                        <li class="question"id="faq-03">Fact says i must deposit my articles in my institutional repository, where can i find it?
+                        </li>
+                        <p class="answer">Your institutional repository is usually accessible from your institution's library webpages. 
+                        <br>
+                        Please contact your repository staff for further details on how to submit to your repository. Your local repository staff or Research Office may also be able to direct you to any local funds for payment of open access fees.</p>
+
+                        <li class="question"id="faq-04">My journal says i must pay for open access, where do i apply for funds?
+                        </li>
+                        <p class="answer">Some funders have provided institutions with funds to pay open access fees. Local repository staff or your research office should be able to direct you to such funds</p>
+
+                        <li class="question"id="faq-05">What data sources are used by sherpa/fact?
+                        </li>
+                        <p class="answer">SHERPA FACT pulls information and interprets data from:</p>
+                        <ul class="answer">
+                            <li><a class="faq-link bold" href="http://www.sherpa.ac.uk/romeo/">SHERPA/RoMEO</a> - publishers' policies on copyright and self-archiving</li>
+                            <li><a class="faq-link bold" href="http://www.sherpa.ac.uk/juliet/">SHERPA/JULIET</a> - funders' policies on open access to research</li>
+                            <li><a class="faq-link bold" href="http://www.doaj.org/">DOAJ</a> - The Directory of Open Access Journals</li>
+                            <li><a class="faq-link bold" href="http://europepmc.org/journalList">Europe PMC/PubMed Central Members List</a> - full members only.</li>
+                        </ul>
+
+                        <li class="question"id="faq-06">What are fact’s working definitions and assumptions?
+                        </li>
+                        <p class="answer">SHERPA FACT and SHERPA RoMEO make the following assumptions where publishers' policies are not explicit or where information is unavailable:</p>
+                        <p class="source bold">Archiving</p>
+                        <ul>
+                            <li class="definitions"> When an entry states 'can archive', then you can archive in any open access repository, unless stated otherwise, e.g. 'in institutional repositories only'.</li>
+                            <li class="definitions"> If no licence for archiving is stated, it is presumed that the equivalent rights of a Creative Commons Attribution Non-Commercial (CC-BY-NC) Licence are allowed.</li>
+                        </ul>
+                        <p class="source bold">Creative Commons Licences</p>
+                        <ul class="definitions">
+                            <li class="definitions"> The phrase 'a range of creative commons licences is available' is displayed when that range includes both licences that are more liberal and licences that are less liberal than the funder's specified requirement. Such entries need to be checked on a case by case basis.</li>
+                        </ul>
+
+                        <p class="source bold">Embargoes (delays for archiving) </p>
+                        <ul class="definitions"> 
+                            <li class="definitions">Where no embargo is stated, articles can be archived at the time of publication or earlier.</li>
+                        </ul>
+
+                        <p class="source bold">Europe PMC/PubMed Central </p>
+                        <ul class="definitions"> 
+                            <li class="definitions">The Wellcome Trust considers that if an article can be deposited in Europe PMC/PubMed Central, that it is done so with the licence it requires.</li>
+                        </ul>
+
+                        <p class="source bold">Open Access Journals </p>
+                        <ul class="definitions"> 
+                            <li class="definitions">Open Access Journals are identified by inclusion in DOAJ (Directory of Open Access Journals) or by notes in the relevant RoMEO record.</li>
+                            <li class="definitions">If a journal is identified as an Open Access Journal, it is considered that it is likely to be compliant, unless we have information to the contrary.</li>
+                        </ul>
+
+                        <p class="source bold">Special Arrangements between Publishers and Funding Agencies</p>
+                        <ul class="definitions"> 
+                            <li class="definitions">If a special arrangement exists, FACT will state the existence of this arrangement. However, you may need to check the details to confirm that it is compliant with your funding agency requirements.</li>
+                        </ul>
+
+                   <li class="question"id="faq-07">How does fact handle multiple funders’ requirements? </li>
+                        <p class="answer">FACT merges the funders' policies by reconciling the different settings, as follows:</p>
+                        <ul>
+                            <li class="definitions-bold">Preference for open access publication or self-archiving</li>
+                            <p> If the preferences differ, both open access publications and self-archiving are required.</p>
+                        </ul>
+
+                        <ul> 
+
+                            <li class="definitions-bold"> Required Creative Commons Licences (or equivalent)</li>
+                            <p>The most open of the specified settings - see the hierarchy below.
+                            <br>N.b. There may be separate settings for open access publishing and for self-archiving.</p>
+                        </ul>
+
+                        <ul> 
+                            <li class="definitions-bold">Acceptability of equivalents to Creative Commons licences</li>
+                            <p>Non-acceptability overrides acceptability.
+                            <br>
+                            N.b. There may be separate settings for open access publishing and for self-archiving.</p>
+                        </ul>
+
+                        <ul>
+                            <li class="definitions-bold">Reimbursement of article page charges (APCs)</li>
+                            <p> Non-reimbursement trumps reimbursement.</p>
+                        </ul>
+
+                        <ul> 
+                            <li class="definitions-bold">Requirement for open access publishers to archive automatically in PubMed Central/Europe PMC</li>
+                            <p> Required if any of the funders requires this.</p>
+                        </ul>
+
+                        <ul>
+                            <li class="definitions-bold">Tolerated publishers' embargo periods</li>
+                            <p> Shortest of the specified settings.</p>
+                        </ul>
+
+                        <ul>
+                            <li class="definitions-bold">Required named repositories for self-archiving options</li>
+                            <p>If specified, all the specified named repositories are cumulated and required.</p>
+                        </ul>
+
+                        <ul>
+                            <li class="definitions-bold">Required or permissible repository types for self-archiving</li>
+                            <p>If specified, all the specified repository types are cumulated and required.</p>
+                        </ul>
+
+                        <ul>
+                            <li class="definitions-bold">Encouragement to authors to negotiate exceptions for the papers they wish to submit to non-compliant journals</li>
+                            <p> Discouragement overrides encouragement.</p>
+                        </ul>
+                        <p>Please note that any special arrangements that funders have with publishers are assumed to override the publishers' default policies.</p>
+
+
+                        <li class="question"id="faq-08">What is the hierarchy of creative commons licences with respect to openness? </li>
+                        <p class="answer">SHERPA FACT uses the following hierarchy for Creative Commons licences, with the most open at the top:</p>
+                        <ul class="answer">
+                            <li>Zero (No rights reserved) Licence - (CC-0)</li>
+                            <li>Attribution Licence - (CC-BY)</li>
+                            <li>Attribution Share-alike Licence - (CC-BY-SA)</li>
+                            <li>Attribution Non-commercial Share-alike Licence - (CC-BY-NC-SA)</li>
+                            <li>Attribution Non-commercial Licence - (CC-BY-NC)</li>
+                            <li>Attribution Non-commercial No-derivatives Licence - (CC-BY-NC-ND)</li>
+                            <li>Attribution No-derivatives Licence - (CC-BY-ND)</li>
+                            <li>Creative Commons Licence [unspecified type] - (CC).</li>
+                        </ul>
+
+                        <li class="question"id="faq-09">Where can i see a breakdown of funder policies? </li>
+                        <p class="answer"><a href="http://www.sherpa.ac.uk/juliet/index.php" class="faq-link bold">SHERPA JULIET</a> provides a breakdown of funders open access policies.</p>
+
+                        <li class="question"id="faq-10"> Is there a fact API? </li>
+                        <p class="answer">A SHERPA/FACT Application Programmers' Interface API is available. More information can be found <a class="faq-link" href="http://www.sherpa.ac.uk/fact/apimanual.php?juliet_id=&funderlist">here</a>.</p>                        
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Footer -->
+    <footer>
+    <div class="container-fluid">
+        <div class="row footer-dark">
+            <div class="col-sm-9">
+                <div class="sponsors">
+                    <h3> Sponsors</h3>
+                    <a href="http://www.jisc.ac.uk/"><img class="sponsor-logo" src="img/jisc.png"></a>
+                    <a href="http://www.rcuk.ac.uk/"><img class="sponsor-logo" src="img/rcuk.png"></a>
+                    <a href="http://www.wellcome.ac.uk/"><img class="sponsor-logo smaller" src="img/wellcome.png"></a>
+                </div>
+             </div>
+            <div class="col-sm-2">
+                <div class="contact">
+                    <a href="contact.html"><h3> Contact Us</h3></a>
+                    <a href="http://crc.nottingham.ac.uk/"><img class="sponsor-logo bigger" src="img/centre.png"></a>
+                </div>
+            </div>
+            <div class="col-sm-12">
+            <div class="disclaimer-legal">
+                <p class="footer-disclaimer">© 2013-2014, University of Nottingham. </p>
+                <p class="footer-disclaimer">FACT information is accurate to the best of our knowledge, but should not be relied upon for legal advice.</p>
+            </div>  
+            </div>  
+        </div>   
+        </div>
+    </footer>
+
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Select2 JavaScript -->
+    <script src="js/select2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() { 
+            $("#funders-select").select2({
+              placeholder: 'Click to select Funders'  
+          }); 
+          $("#clear-select").click(function() { $("#funders-select").select2("val", ""); });
+        });
+    </script>
+
+</body>
+
+</html>
