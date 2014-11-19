@@ -172,3 +172,43 @@ strong {
 .row-margin-top {
 	margin-top: 25px;
 }
+pre.code-box{
+	border-radius: 1px;
+	font-family: Monaco, courier;
+
+}
+.monaco {
+	font-family: Monaco, courier;
+}
+samp.samp-style {
+	font-family: ProximaItalic, sans-serif;
+/*  -- typekit css--
+	font-family: proxima-nova-alt, sans-serif;
+	font-style: italic;
+	font-weight: 100 */	
+	color: #414141;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+code.code-style{
+	color: #414141;
+	background-color: #e7ebdc;
+	padding: 5px;
+}
+.p-padding-top {
+	padding-top: 10px;
+}
+table.table-style {
+	font-family: ProximaLight, sans-serif;
+/*  -- typekit css--
+	font-family: proxima-nova-alt, sans-serif;
+	font-style: normal;
+	font-weight: 100 */	
+	color: #414141; 
+}
+.light-green {
+	color: #87aa3a;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	padding:0;
+}
