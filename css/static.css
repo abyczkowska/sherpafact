@@ -117,22 +117,21 @@ p.warning{
 .para-style{
 	padding-top: 15px;
 }
-td.query {
+.query {
 	font-family: Monaco, courier;
-	width: 30%;
 }
-td.query-description p{
+.query-description p{
 	font-family: ProximaLight, sans-serif;
 /*  -- typekit css--
 	font-family: proxima-nova-alt, sans-serif;
 	font-style: normal;
 	font-weight: 100 */
-	width: 70%;
 }
 p.red {
 	color: #9b3042;
 }
 .btn.btn-small {
+	display: inline-block;
 	border-radius: 1px;
     border: 1px solid #779f41;
     font-size: 12px;
@@ -165,6 +164,11 @@ p.red {
     color: #fff;  
     border: 1px solid #5c8436;
 }
-tr.tr-style{
-	margin-top: 15px;
+strong {
+	font-family: Monaco, courier;
+	color: #414141;
+	font-size: 14px;
+}
+.row-margin-top {
+	margin-top: 25px;
 }
