@@ -12,7 +12,7 @@
     <title>Sherpa Fact - Funders & Authors Compliance Tool</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/select2.css" rel="stylesheet">
     <link href="css/select2-bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -40,10 +40,10 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default">
-        <div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header sherpa-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -74,6 +74,7 @@
                             </li> 
                           </ul>
                         </a>
+                        </li>
 
 
             </div>
@@ -81,7 +82,8 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div class="row">
+    <div class="container-fluid">
+    <div class="row tagline-color">
         <div class="col-sm-12">
             <div class="tagline">  Funders & Authors Compliance Tool - Helping you comply with funders’ open access policies</div>
         </div>    
@@ -121,18 +123,25 @@
                         </li>
                     </ol>    
                     <div class="clearfix">
-                        <p class="search-message"> No results found</p>
-                        <a href="#" class="feedback-link"> Send us feedback</a>
-                        <button id="clear-select" type="reset" value="Clear" class=" btn clear-button pull-right">Clear</button>
+                        <div class="message-wrapper">
+                            <p class="search-message"> No results found</p>
+                            <a href="#" class="feedback-link"> Send us feedback</a>
+                        </div>
+                        <div class="button-wrapper pull-right">
+                            <a class="btn search-button pull-right">Search</a>
+                            <button id="clear-select" type="reset" value="Clear" class=" btn clear-button pull-right">Clear</button>
+                        </div>
                     </div>
+
                 </form>
             </div>
         </div>  
     </div>  
-                <!-- Footer -->
-    <footer class="footer-dark">
-        <div class="row">
-            <div class="col-sm-10">
+    </div>            <!-- Footer -->
+    <footer>
+    <div class="container-fluid">
+        <div class="row footer-dark">
+            <div class="col-sm-9">
                 <div class="sponsors">
                     <h3> Sponsors</h3>
                     <a href="http://www.jisc.ac.uk/"><img class="sponsor-logo" src="img/jisc.png"></a>
@@ -146,11 +155,14 @@
                     <a href="http://crc.nottingham.ac.uk/"><img class="sponsor-logo bigger" src="img/centre.png"></a>
                 </div>
             </div>
-            <div class="col-sm-12 disclaimer">
+            <div class="col-sm-12">
+            <div class="disclaimer">
                 <p class="footer-disclaimer">© 2013-2014, University of Nottingham. </p>
                 <p class="footer-disclaimer">FACT information is accurate to the best of our knowledge, but should not be relied upon for legal advice.</p>
-            </div>    
+            </div>  
+            </div>  
         </div>   
+        </div>
     </footer>
 
 
